@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>お勉強なう 2016/04/16</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header id="header">
+  <!--見出し-->
+  <h1>見出し 「お勉強なう 2016/04/16」</h1>
+</header>
+
+<main id="main">
+  <section>
+    <h2>HTML勉強</h2>
+    <!--文章-->
+    <p><em>HTML</em>とは<a href="">ハイパーテキストマークアップランゲージ</a>の<span>略</span>です。</p>
+
+    <section>
+      <h3>ブロック要素とインライン要素の違い</h3>
+      <section>
+        <h4>ブロック要素</h4>
+        <p>改行するタグ、主に（h1, ul, ol, dl, li, dt, dd, p）</p>
+      </section>
+      <section>
+        <h4>インライン要素</h4>
+        <p>改行しないタグ主に（span, a, em, strong ,small）</p>
+      </section>
+    </section>
+    <!--リスト-->
+
+
+    <section>
+      <h3>タグの説明</h3>
+      <div class="list-group">
+        <ul>
+          <li>見出し : h1 〜 h6</li>
+          <li>段落 : p</li>
+          <li>リスト : ul, li</li>
+          <li>番号付きリスト : ol, li</li>
+          <li>定義付きリスト : dl, dt, dd</li>
+          <li>まえがき : header</li>
+          <li>本文 : main</li>
+          <li>あとがき : footer</li>
+          <li>文章の範囲 : section</li>
+          <li>意味がないがグループかに役立つ: div, span</li>
+          <li>強調: em, strong</li>
+          <li>弱める（注釈などに使うことが多い）: small</li>
+        </ul>
+
+        <!--番号付きリスト-->
+        <ol>
+          <li>見出し : h1 〜 h6</li>
+          <li>段落 : p</li>
+          <li>リスト : ul, li</li>
+        </ol>
+      </div>
+
+      <!--定義（タイトル）付きリスト-->
+      <dl>
+        <dt>見出し</dt> <!--↓のddのことをいったタイトルみたいなもん-->
+        <dd>h1</dd>
+        <dd>h2</dd>
+        <dd>h3</dd>
+        <dd>h4</dd>
+        <dd>h5</dd>
+        <dd>h6</dd>
+
+        <dt>段落</dt>
+        <dd>p</dd>
+      </dl>
+    </section>
+  </section>
+
+  <section>
+    <h2>CSS勉強</h2>
+    <p>CSSとはカスケーディングスタイルシートの略です。</p>
+
+    <section>
+      <h3>CSSの説明</h3>
+      <ul>
+        <li>外側の空き : margin</li>
+        <li>内側の空き : padding</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>idとクラスについて</h3>
+      <ul>
+        <li>idの書き方（#）: #header</li>
+        <li>classの書き方（.）: .copyright</li>
+      </ul>
+    </section>
+</main>
+
+<footer id="footer">
+  <p class="copyright">&copy; copyright</p>
+</footer>
+</body>
+</html>
